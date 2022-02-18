@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>register</title>
+<link href="Styles.css" rel="stylesheet" type="text/css">
+	<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/lobster:n4:default;source-sans-pro:n2,n7:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<header>
+  <img src="images/Asset 3.png" width="300" height="234" alt=""/>
+<nav>
+  <p><a href="home.html" class="navHome">Home</a> <a href="aboutus.html" class="navAbout">About Us </a> <a href="portfolio.html" class="navPort">Portfolio</a> <a href="signup.html" class="navSignUp">Sign Up</a> <a href="signup.html" class="navContact">Sign In</a> <a href="contact.html" class="navContact">Contact</a></p>
+</nav>
+</header>
+
+
+  
+<section class="sectionRight">	
+ <div class="container">
+    <div class="row">
+		<div class = "column">
+      <div class="span9">
+        <div class="register">
+          <div class="titleHeader clearfix">
+            <h3>Create New Account</h3>
+          </div>
+          <!--end titleHeader-->
+          <form action="connect.php" method="post"  class="form-horizontal">
+            <legend>&nbsp;&nbsp;&nbsp;&nbsp; Personal Informations</legend>
+            <div class="control-group success">
+              <label class="control-label" for="inputFirstName">First Name: <span class="text-error">*</span></label>
+              <div class="controls">
+                <input type="text" id="inputFirstName" placeholder="Rey" name="firstName">
+                <span class="help-inline"><i class="icon-ok"></i></span> </div>
+            </div>
+            <!--end control-group-->
+            <div class="control-group error">
+              <label class="control-label" for="inputLastName">Last Name: <span class="text-error">*</span></label>
+              <div class="controls">
+                <input type="text" id="inputLastName" placeholder="Mysterio" name="lastName">
+                <span class="help-inline"><i class="icon-remove"></i> </span> </div>
+            </div>
+            <!--end control-group-->
+            <div class="control-group">
+              <label class="control-label" for="inputEMAdd">E-Mail Address: <span class="text-error">*</span></label>
+              <div class="controls">
+                <input type="text" id="inputEMAdd" placeholder="example@example.com" name="email">
+              </div>
+            </div>
+            <!--end control-group-->
+            
+            <div class="control-group">
+              <label class="control-label" for="inputSecondAdd"> Address:</label>
+              <div class="controls">
+                <input type="text" id="inputSecondAdd" placeholder=" Enter your address" name="address">
+              </div>
+            </div>
+            <!--end control-group-->
+            <div class="control-group">
+              <label class="control-label" for="inputPostCode">Postal Code: <span class="text-error">*</span></label>
+              <div class="controls">
+                <input type="text" id="inputPostCode" placeholder="Zip Code" name="postCode">
+              </div>
+            </div>
+            <!--end control-group-->
+            <div class="control-group">
+              <div class="control-label">Region/State: <span class="text-error">*</span></div>
+			<div class="controls">
+                <select name="select">
+                  <option value="#">-- Select State --</option>
+                  <option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+                </select>
+              </div>
+            </div>
+            <!--end control-group-->
+			  <p></p>
+            <legend>&nbsp;&nbsp; Set Your Password</legend>
+            <div class="control-group">
+              <label class="control-label" for="inputPass" >Password: <span class="text-error">*</span></label>
+              <div class="controls">
+                <input type="password" id="inputPass" placeholder="**********" name="password">
+              </div>
+            </div>
+            <!--end control-group-->
+            
+            <hr>
+            <div class="control-group">
+              <div class="controls">
+                <label class="checkbox">
+                  <input type="checkbox">
+                  I'v read and agreed on <a href="#">Terms &amp; Conditions</a> </label>
+                <br>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+              </div>
+            </div>
+            <!--end control-group-->
+          </form>
+          <!--end form-->
+        </div>
+        <!--end register-->
+		  
+      </div>
+		</div>
+      <!--end span9-->
+      <div class="span3">
+        <div class="titleHeader clearfix">
+          <h3>Categories</h3>
+        </div>
+        <!--end titleHeader-->
+        <ul class="unstyled my-account">
+          <li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> Login or Register</a></li>
+          <li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> Forgot my Password</a></li>
+          <li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> My Account</a></li>
+          <li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> My wishlist</a></li>
+          <li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> Order History</a></li>
+        </ul>
+      </div>
+      <!--end span3-->
+		
+    </div>
+    <!--end row-->
+  </div><!--end conatiner-->
+
+
+		<!--begin footer-->
+	</section>
+<footer>
+  <div class="footerOuter">
+			<div class="container">
+			  <div class="row-fluid">
+
+					<div class="span6">
+						<div class="titleHeader clearfix">
+							<h3>Useful Links</h3>
+						</div>
+
+						
+						<div class="usefulLinks">
+							<div class="row-fluid">
+								<div class="span6">
+										<li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> About Us</a></li>
+										<li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> Delivery Information</a></li>
+										<li><a class="invarseColor" href="#"><i class="icon-caret-right"></i>Privacy Policy</a></li>
+										<li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> Terms &amp; Conditions</a></li>									
+										<li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> Customer Support</a></li>
+										
+										<li><a class="invarseColor" href="#"><i class="icon-caret-right"></i> Browse Site Map</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div><!--end span6-->
+
+				<div class="span3">
+						<div class="titleHeader clearfix">
+							<h3>Contact Info</h3>
+						</div>
+
+						<div class="contactInfo">
+								<li>
+									<button class="btn btn-small">
+										<i class="icon-volume-up"></i>
+									</button>
+									Call Us: <a class="invarseColor" href="#">8572345922</a>
+								</li>
+								<li>
+									<button class="btn btn-small">
+										<i class="icon-envelope-alt"></i>
+									</button>
+									<a class="invarseColor" href="#">manozz909@gmail.com</a>
+								</li>
+								<li>
+									<button class="btn btn-small">
+										<i class="icon-map-marker"></i>
+									</button>
+									1000 Massachusetts Ave. Boston, MA
+								</li>
+						</div>
+
+				  </div><!--end span3--><!--end span3-->
+
+				</div><!--end row-fluid-->
+
+			</div><!--end container-->
+  </div><!--end footerOuter--></footer>
+		<!--end footer-->
+
+	</div><!--end mainContainer-->
+   
+</body>
+
+</html>
